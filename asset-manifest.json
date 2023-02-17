@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ansta-zad-rekrutacyjne/static/css/main.cff6a01b.css",
+    "main.js": "/Ansta-zad-rekrutacyjne/static/js/main.ee1bf313.js",
+    "index.html": "/Ansta-zad-rekrutacyjne/index.html",
+    "main.cff6a01b.css.map": "/Ansta-zad-rekrutacyjne/static/css/main.cff6a01b.css.map",
+    "main.ee1bf313.js.map": "/Ansta-zad-rekrutacyjne/static/js/main.ee1bf313.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cff6a01b.css",
+    "static/js/main.ee1bf313.js"
+  ]
+}
