@@ -1,0 +1,79 @@
+tr {
+  background-color: #7a9fa1;
+  min-width: 52rem;
+  border-radius: 5px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+}
+
+thead > tr:nth-child(1) {
+  justify-content: center;
+  font-size: 1.4rem;
+}
+thead > tr:nth-child(1) th {
+  font-size: 1.8rem;
+  flex: 1;
+  text-align: center;
+  width: 100%;
+}
+
+th {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: left;
+}
+
+tr > th:nth-child(1),
+tr > td:nth-child(1) {
+  flex-basis: 10%;
+}
+tr > th:nth-child(2),
+tr > td:nth-child(2) {
+  flex-basis: 40%;
+}
+tr > th:nth-child(3),
+tr > td:nth-child(3) {
+  flex-basis: 30%;
+}
+tr > th:nth-child(4),
+tr > td:nth-child(4) {
+  flex-basis: 20%;
+}
+
+tbody > tr {
+  background-color: #95a5a6;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+tbody > tr:nth-child(even) {
+  background-color: #a3a6a7;
+}
+tfoot.footer tr td {
+  flex-basis: 15%;
+  font-weight: 500;
+}
+tfoot.footer tr td:first-child {
+  flex-basis: 55%;
+  font-weight: 500;
+}
+
+tfoot.footer tr.numbEmpl td:first-child {
+  flex-basis: 40%;
+}
+button {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.btn:hover {
+  transform: scale(1.1);
+}
+img {
+  height: 20px;
+  cursor: pointer;
+}

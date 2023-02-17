@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 100vh;
+  background: rgb(148, 146, 208);
+  background: radial-gradient(
+    circle,
+    rgba(148, 146, 208, 1) 0%,
+    rgba(90, 158, 177, 1) 100%
+  );
+}
+
+.rc-slider-handle:before {
+  content: attr(aria-valuenow);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

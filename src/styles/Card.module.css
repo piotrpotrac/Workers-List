@@ -1,0 +1,7 @@
+div .card {
+  border: 1px solid rgba(122, 122, 122, 0.5);
+  padding: 3rem 4rem;
+  border-radius: 20px;
+  box-shadow: 5px -4px 10px 1px rgba(110, 110, 110, 0.5);
+  background-color: rgba(226, 225, 225, 0.95);
+}

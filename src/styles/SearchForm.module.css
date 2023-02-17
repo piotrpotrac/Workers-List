@@ -1,0 +1,79 @@
+div .header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 20rem;
+  margin-bottom: 0.5rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.search_form_inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+.search_form label {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 2rem;
+}
+
+.search_form input {
+  display: block;
+  line-height: 1.4rem;
+  width: 20rem;
+}
+
+.multi_select {
+  width: 20rem;
+}
+.multi_select div {
+  font-weight: normal;
+  outline: none;
+  line-height: 20px;
+  border: none;
+}
+.multi_select:first-child {
+  max-width: 21rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+select.currency {
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  text-align: center;
+  padding: 0.5rem 0.3rem;
+  outline: none;
+  height: 2.5rem;
+}
+select.currency:focus {
+  border: 1px solid rgb(83, 142, 194);
+  outline: none;
+}
+
+.select {
+  z-index: 2;
+}
+
+.btn {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: rgba(23, 26, 32, 0.8);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  color: white;
+  margin: 2rem auto 0 auto;
+  padding: 0 16px;
+  transition: all 0.1s;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: rgba(23, 26, 32, 1);
+}
