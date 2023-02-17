@@ -1,8 +1,8 @@
 {
-  "homepage": "http://piotrpotrac.github.io/Ansta-zad-rekrutacyjne",
-  "name": "easy_drive",
+  "homepage": "http://piotrpotrac.github.io/ansta",
+  "name": "ansta",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,8 +19,6 @@
   },
   "scripts": {
     "start": "set PORT=3002 && react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
