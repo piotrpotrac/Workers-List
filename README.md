@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About App
+This application is intended to catalog the data of employees employed in the company. Employees are divided into different departments and have different salaries. The application allows you to filter employees by name, department, salary and currency. You can also add and remove individual employees from the list.
 
 ## Available Scripts
 
